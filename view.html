@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просмотр</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/papaparse.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="hamburger" onclick="openNav()"></div>
+        <h1>Архив им. Ксении Смирновой</h1>
+    </header>
+
+    <div id="sidebar">
+        <img src="images/autograph.png" id="ag1"></img>
+        <div id="x" onclick="closeNav()"></div>
+        <a href="index.html">На главную</a>
+        <a href="fake.html">Биография</a>
+        <a href="fake.html">На письме</a>
+        <a href="pinacotheca.html">Объективно</a>
+        <a href="fake.html">Прочее</a>
+        <img src="images/autograph.png" id="ag2"></img>
+    </div>
+
+    <main>
+        <div id="picture">
+            <div id="loading"></div>
+        </div>
+        <div id="navig"></div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/view.js"></script>
+
+</body>
+
+</html>
