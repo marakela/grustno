@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             function LoadImage() {
                                 let pic = document.createElement('img');
-                                pic.src = `https://drive.usercontent.google.com/download?id=${photo.url}&export=download`;
+                                pic.src = `https://drive.usercontent.google.com/download?id=${photo.url}&export=view`;
 
                                 pic.onload = function() {
                                     document.getElementById('loading').style.display = 'none';
